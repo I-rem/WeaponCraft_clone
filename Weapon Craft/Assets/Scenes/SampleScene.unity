@@ -1149,6 +1149,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1438,6 +1442,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: gateType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &363560091 stripped
@@ -1694,6 +1714,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &497449527 stripped
@@ -1836,6 +1868,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -2349,6 +2385,22 @@ PrefabInstance:
     - target: {fileID: 2756843907055750740, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: gateType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: maxBonus
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
@@ -3799,6 +3851,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &997381076 stripped
@@ -3885,7 +3949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2756843905833361007, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.77
+      value: -5.17
       objectReference: {fileID: 0}
     - target: {fileID: 2756843905833361007, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3939,6 +4003,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 2.9500003
       objectReference: {fileID: 0}
+    - target: {fileID: 7180508204913424443, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &1028356501 stripped
@@ -3957,6 +4033,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4222,6 +4302,22 @@ PrefabInstance:
     - target: {fileID: 2756843907055750740, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: gateType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
@@ -5476,6 +5572,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &1442627917 stripped
@@ -5494,6 +5602,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7240,6 +7352,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7516,6 +7632,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7978,6 +8098,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8068,6 +8192,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -8334,6 +8462,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: gateType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!4 &2127852545 stripped
@@ -8461,6 +8601,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 2.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 928131361}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: currentBonus
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7543063640236042705, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: bonusIncreaseRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8722130310706360820, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
+      propertyPath: m_text
+      value: 'Fire Rate '
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384a2bf388656eb48bf66354a94f7340, type: 3}
 --- !u!1001 &8567539956207272559
@@ -8474,6 +8630,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 307305095851577022, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 8209490933225117922, guid: 77d0b8e4c48e3fd4c910bb9b3a6ffcdb, type: 3}
     - target: {fileID: 983166336401402198, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_IsActive
       value: 0

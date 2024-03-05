@@ -68,5 +68,20 @@ public class PlayerShooting : MonoBehaviour
 
         isAnimating = false;
     }
+
+    public void ApplyBonus(float bonus, int type)
+    {
+        if (type == 0)
+        {
+            shootInterval -= bonus;
+            if (shootInterval < 0)
+                shootInterval = 0;
+        }
+        else if (type == 1)
+        {
+            maxShootingDistance += bonus;
+        }
+            
+    }
 }
 
