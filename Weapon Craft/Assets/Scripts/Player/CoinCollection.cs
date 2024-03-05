@@ -28,7 +28,7 @@ public class CoinCollection : MonoBehaviour
 
             // We can add more behavior here, like updating UI
 
-            Debug.Log("Coin collected! Total coins: " + coinsCollected);
+            //Debug.Log("Coin collected! Total coins: " + coinsCollected);
         }
     }
 }
