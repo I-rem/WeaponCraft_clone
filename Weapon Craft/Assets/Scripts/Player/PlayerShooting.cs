@@ -2,12 +2,13 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public GameObject bulletPrefab; 
-    public Transform firePoint; 
-    public float bulletForce = 20f; 
-    public float shootInterval = 1f; 
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float bulletForce = 20f;
+    public float maxShootingDistance = 10f;
+    public float shootInterval = 0.5f;
 
-    private float shootTimer = 0f;
+    private float shootTimer = 0f; 
 
     private void Update()
     {
@@ -16,7 +17,7 @@ public class PlayerShooting : MonoBehaviour
         if (shootTimer >= shootInterval)
         {
             Shoot(); 
-            shootTimer = 0f; 
+            shootTimer = 0f; // Reset shoot timer
         }
     }
 
@@ -27,5 +28,6 @@ public class PlayerShooting : MonoBehaviour
         Rigidbody rb = bullet.GetComponent<Rigidbody>();
 
         rb.AddForce(firePoint.forward * bulletForce, ForceMode.Impulse);
+        Destroy(bullet, maxShootingDistance / bulletForce);
     }
 }
