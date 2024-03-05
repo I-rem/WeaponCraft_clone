@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Coin
   - Obstacle
+  - Shootable
   layers:
   - Default
   - TransparentFX
