@@ -11,6 +11,7 @@ public class BulletCollector : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            Debug.Log("Collect me");
             Destroy(gameObject);
         }
         else if (collision.collider.CompareTag("Bullet"))
@@ -24,6 +25,7 @@ public class BulletCollector : MonoBehaviour
 
     public void AddBullet()
     {
+        gameObject.transform.GetChild(currentBullets).gameObject.SetActive(true);
         currentBullets++;
 
         if (currentBullets >= maxBullets)
