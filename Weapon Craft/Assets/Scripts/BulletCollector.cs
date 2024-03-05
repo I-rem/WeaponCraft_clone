@@ -2,42 +2,33 @@ using UnityEngine;
 
 public class BulletCollector : MonoBehaviour
 {
-    public int maxBullets = 7; // Maximum number of bullets the collector can hold
-    public GameObject bulletPrefab; // Prefab of the bullet object to collect
-    public Transform bulletSpawnPoint; // Point from which bullets will be spawned when collected
+    public int maxBullets = 7; 
+    public GameObject bulletPrefab; 
 
-    private int currentBullets = 0; // Current number of collected bullets
+    private int currentBullets = 0;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.collider.CompareTag("Player"))
         {
-            // Player touched the collector, collect the bullets
-            CollectBullets();
+            Destroy(gameObject);
         }
-    }
-
-    void CollectBullets()
-    {
-        // Destroy the collector object
-        Destroy(gameObject);
-
-        // Spawn bullets at the spawn point
-        for (int i = 0; i < currentBullets; i++)
+        else if (collision.collider.CompareTag("Bullet"))
         {
-            Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+            Debug.Log("Test");
+            AddBullet();
+            Destroy(collision.collider);
+           
         }
     }
 
     public void AddBullet()
     {
-        // Increment current bullets count
         currentBullets++;
 
-        // If the current bullets count exceeds the maximum, collect the bullets
         if (currentBullets >= maxBullets)
         {
-            CollectBullets();
+            Destroy(gameObject);
         }
     }
 }

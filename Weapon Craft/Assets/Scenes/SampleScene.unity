@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 928131370}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -912,6 +912,8 @@ MonoBehaviour:
   bulletForce: 15
   maxShootingDistance: 15
   shootInterval: 0.5
+  animationDuration: 0.2
+  animationIntensity: 5
 --- !u!1 &946886629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2275,6 +2277,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 151211173, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151211173, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8567539957278883812, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2289,7 +2299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8567539957278883812, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.76
+      value: 18.778
       objectReference: {fileID: 0}
     - target: {fileID: 8567539957278883812, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2322,10 +2332,6 @@ PrefabInstance:
     - target: {fileID: 8567539957278883816, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
       propertyPath: m_Name
       value: BulletCollector
-      objectReference: {fileID: 0}
-    - target: {fileID: 8567539957278883816, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}
-      propertyPath: m_TagString
-      value: Shootable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dda2ac966b9dbda4280e2d6134d7e0be, type: 3}

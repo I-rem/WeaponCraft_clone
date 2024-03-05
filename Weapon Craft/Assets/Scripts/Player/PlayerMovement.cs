@@ -41,7 +41,6 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            // Set obstacle collision flag
             obstacleCollisionDetected = true;
 
             // Adjust the player's position immediately upon collision
