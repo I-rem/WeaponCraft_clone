@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class FireRateGate : MonoBehaviour
+public class Gate : MonoBehaviour
 {
     public float maxBonus = 5f;
     public float bonusIncreaseRate = 0.1f;
